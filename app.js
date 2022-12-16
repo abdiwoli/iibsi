@@ -1,27 +1,24 @@
-(function(){
-  'use strict';
-  angular.module("firstApp",[])
-  .controller("abdi", abdi)
-  .filter('loves', loveFilter);
-  abdi.$inject = ["$scope","lovesFilter"];
-  function abdi($scope, lovesFilter){
-    $scope.state = "hangury";
-    $scope.message = function(){
-      var msg = "abdiwoli likes fish";
-
-      return $scope.$$watchersCount;
-    };
-    $scope.c = 0;
-
-    $scope.show = function(){
-         $scope.c+=1;
+(
+  function(){
+    angular.module("firstApp",[])
+    .controller("main", main)
+    .filter('strToltr',StrToltrFilter);
+    main.$inject = ["$scope","strToltrFilter"];
+    function main($scope, strToltrFilter){
+      $scope.name ="abdiwoli";
+      $scope.age =33;
+      $scope.apps = {
+        names: 'abdi',
+        ages:66
+      };
+    }
+    function StrToltrFilter(){
+      return function(input){
+        if(input == 66){
+          return "sixty six";
+        }
+        return input;
+      }
     }
   }
-  function loveFilter(){
-    return function(input,h){
-      input = input || "";
-      input = input.replace("likes",h);
-      return input;
-    };
-  }
-})();
+)();

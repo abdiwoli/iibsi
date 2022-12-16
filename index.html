@@ -5,12 +5,33 @@
     <script src="angular.js"></script>
     <script src='app.js'>  </script>
     <title>abdiwolipage</title>
+    <style media="screen">
+
+      form{
+        width: 200px;
+        height:100px;
+        background: pink;
+      }
+    </style>
   </head>
   <body ng-app='firstApp'>
-    <div class="first" ng-controller='abdi'>
-        {{message()}}<br>
-        {{c}}
-        <button type="button" name="button" ng-click='show()'>clickME</button>
+    <div class="main" ng-controller='main'>
+      <h1>wellcome to the learning and excersicing page</h1>
+      <h2>for now there is no styling and formating </h2>
+      <h3>so every thing my don't look good</h3>
+      <form class="form" action="index.html" method="post">
+        <label for="name">name</label>
+        <input type="text" name="name" value={{name}}>
+        <label for="age">age</label>
+        <input type="text" name="age" value={{age}}>
+        <br>
+
+        <input type="submit" name="submit" value="submit">
+
+      </form>
+      <div class="ouput" ng-repeat="app in apps">
+                 {{app| strToltr}}
+      </div>
     </div>
   </body>
 </html>
