@@ -15,23 +15,21 @@
     </style>
   </head>
   <body ng-app='firstApp'>
-    <div class="main" ng-controller='main'>
+    <div class="main" ng-controller='main' ng-click=upCounter()>
       <h1>wellcome to the learning and excersicing page</h1>
       <h2>for now there is no styling and formating </h2>
       <h3>so every thing my don't look good</h3>
       <form class="form" action="index.html" method="post">
         <label for="name">name</label>
-        <input type="text" name="name" value={{name}}>
+        <input type="text" name="name" value={{counter}}>
         <label for="age">age</label>
-        <input type="text" name="age" value={{age}}>
+        <input type="text" name="age" value="">
         <br>
 
         <input type="submit" name="submit" value="submit">
 
       </form>
-      <div class="ouput" ng-repeat="app in apps">
-                 {{app| strToltr}}
-      </div>
+
     </div>
   </body>
 </html>
