@@ -1,24 +1,27 @@
-var student = {
-  name:"",
-  type:"student"
-}
+(function(){
+  'use strict';
+  angular.module("firstApp",[])
+  .controller("abdi", abdi)
+  .filter('loves', loveFilter);
+  abdi.$inject = ["$scope","lovesFilter"];
+  function abdi($scope, lovesFilter){
+    $scope.state = "hangury";
+    $scope.message = function(){
+      var msg = "abdiwoli likes fish";
 
-document.addEventListener("DOMContentLoaded", contentLoaded);
-function contentLoaded() {
-  document.getElementById('name').addEventListener("keyup",keyUp);
+      return $scope.$$watchersCount;
+    };
+    $scope.c = 0;
 
-}
-
-function keyUp(){
-  calculateNUmeric();
-}
-
-function calculateNUmeric(){
-  student.name = document.getElementById("name").value;
-  var totalNameValue = 0;
-  for (var i = 0; i < student.name.length; i++) {
-    totalNameValue+=student.name.charCodeAt(i);
+    $scope.show = function(){
+         $scope.c+=1;
+    }
   }
-  var output = "Total numeric value of persons name is"+totalNameValue;
-  document.getElementById("output").innerText = output;
-}
+  function loveFilter(){
+    return function(input,h){
+      input = input || "";
+      input = input.replace("likes",h);
+      return input;
+    };
+  }
+})();
