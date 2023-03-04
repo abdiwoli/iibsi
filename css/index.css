@@ -47,11 +47,10 @@
     text-align: left;
     width: 10%;
     margin: 0;
-    padding: 8px;
+    padding: 4px;
   }
 
   .topnav input[type=text] {
-    width:20%;
     border: 1px solid #ccc;
   }
 }
