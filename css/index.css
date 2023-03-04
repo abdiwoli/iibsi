@@ -45,7 +45,7 @@
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text], #logo {
     text-align: left;
-    width: 10%;
+    width: 100%;
     margin: 0;
     padding: 4px;
   }
