@@ -45,12 +45,13 @@
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text], #logo {
     text-align: left;
-    width: 100%;
+    width: 5%;
     margin: 0;
     padding: 4px;
   }
 
   .topnav input[type=text] {
+    width: 10%;
     border: 1px solid #ccc;
   }
 }
