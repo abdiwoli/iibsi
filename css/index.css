@@ -42,3 +42,16 @@
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text], #logo {
+    text-align: left;
+    width: 10%;
+    margin: 0;
+    padding: 8px;
+  }
+
+  .topnav input[type=text] {
+    width:40%;
+    border: 1px solid #ccc;
+  }
+}
