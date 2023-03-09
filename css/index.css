@@ -39,6 +39,15 @@ body{
 
 
 }
-@media query {
+@media only screen and (max-width:600) {
+  .topnav{
+    position:
+  }
+  .search{
+    top: 30%;
+  }
+  body{
+    background: red;
+  }
 
 }
