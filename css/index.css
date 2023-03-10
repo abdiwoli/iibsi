@@ -63,15 +63,18 @@ a:acive{
 }
 /* dow navigation:  */
 .dnav {
-  margin-top: .2vw;
-  background: gray;
+  margin-top: 7px;
+  background: #333;
   border: .5px solid gray;
   border-radius: 10px 10px 10px 10px;
   height: 30px;
-  color: white;
+
 }
 .dnav a{
   font-size: 2vw;
+  padding-left: 190px;
+  color: pink;
+
 }
 
 
@@ -111,6 +114,13 @@ a:acive{
      position: absolute;
      top:125px;;
      width: 100%;
+   }
+
+   .dnav a{
+     font-size: 18px;
+     padding-left: 100px;
+     color: pink;
+
    }
    h1{
      position: absolute;
