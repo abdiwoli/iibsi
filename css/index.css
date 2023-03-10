@@ -28,6 +28,7 @@ body{
   font-size: 150%;
   float: right;
   border: 1px solid red;
+  height: 35px;
 
 }
 a:hover{
@@ -56,13 +57,22 @@ a:acive{
     width: 95%;
     height: 30%;
     left:2%;
-    top:30px;
+    top:38px;
   }
   .logo{
     width: 10%;
   }
   body{
-    background: lighgray;
+    background: lightpink;
   }
+  h1 {
+    position: absolute;
+    top: 112px;
+  }
+  p{
+    position: absolute;
+    top:200px;
+  }
+
 
 }
