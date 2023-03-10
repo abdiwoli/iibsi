@@ -27,6 +27,14 @@ body{
   text-decoration:none;
   font-size: 150%;
   float: right;
+  border: 1px solid red;
+
+}
+a:hover{
+  background: blue;
+}
+a:acive{
+  background: red;
 }
 .search {
   width: 60%;
