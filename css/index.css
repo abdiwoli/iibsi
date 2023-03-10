@@ -65,13 +65,9 @@ a:acive{
   body{
     background: lightpink;
   }
-  h1 {
+  .message{
     position: absolute;
-    top: 112px;
-  }
-  p{
-    position: absolute;
-    top:200px;
+    top: 130px;
   }
 
 
