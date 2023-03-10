@@ -43,10 +43,10 @@ a:acive{
   background: red;
 }
 .search input{
-  margin-top: 1%;
+  margin-top: 2px;
   height: 40px;
   width: 40vw;
-  top:1.5%;
+  top:18px;
   border-radius: 10px 10px 10px 10px;
   position: absolute;
   left:15%;
@@ -96,14 +96,14 @@ a:acive{
    }
 
    .search input{
-     top: 75px;
+     top: 77px;
      width: 95%;
-     height:8%;
+     height:35px;
      left:2%;
    }
    .dnav{
      position: absolute;
-     top:133px;;
+     top:125px;;
      width: 100%;
    }
    h1{
