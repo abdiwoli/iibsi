@@ -6,29 +6,33 @@ body{
   width: 100%;
   height: 100%;
 }
+.nav {
+  position: relative;
+  overflow: hidden;
 
+}
 .topnav{
   overflow: hidden;
   display: block;
   width: 100%;
   background: #333;
+  height: 5vw;
+  position: relative;
+}
+.logo img{
+  width: 10vw;
+  height: 5vw;
 }
 
-.logo{
-  position: absolute;
-  top: 2%;
-  opacity: 0.6;
-  width: 6%;
-}
 
-.topnav a{
+.navlink a{
   color: white;
-  padding: 2% 2%;
+  padding: 1% 2%;
   text-decoration:none;
-  font-size: 150%;
+  font-size: 3vw;
   float: right;
   border: 1px solid red;
-  height: 35px;
+  height: 4.5vw;
 
 }
 a:hover{
@@ -37,38 +41,56 @@ a:hover{
 a:acive{
   background: red;
 }
-.search {
-  width: 60%;
-  height: 25%;
-  top:15px;
+.search input{
+  margin-top: 1vw;
+  height: 3.3vw;
+  width: 40vw;
+  top:0.4vw;
   border-radius: 10px 10px 10px 10px;
   position: absolute;
-  left:10%;
-
+  left:13%;
 
 }
-@media only screen and (max-width:600px) {
-  .topnav{
-    position:absolute;
-    width: 100%;
-  }
-  .search{
-    position: absolute;
-    width: 95%;
-    height: 30%;
-    left:2%;
-    top:38px;
-  }
-  .logo{
-    width: 10%;
-  }
-  body{
-    background: lightpink;
-  }
-  .message{
-    position: absolute;
-    top: 130px;
-  }
+/* dow navigation:  */
+.dnav {
+  margin-top: .2vw;
+  background: gray;
+  border: 1px solid red;
+  height: 3vw;
+  color: white;
+}
+.dnav a{
+  font-size: 2vw;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile size */
+@media only screen and (max-width:600px) {
+   body{
+     background: pink;
+   }
+
+   .search input{
+     top: 10vw;
+   }
 
 }
