@@ -18,6 +18,7 @@ body{
   background: #333;
   height: 70px;
   position: relative;
+
 }
 .logo img{
   width: 75px;
@@ -89,10 +90,20 @@ a:acive{
      background: pink;
    }
 
+   .navlink a{
+     padding-top: 4%;
+   }
+
    .search input{
-     top: 27%;
-     width: 80%;
-     height:8vw;
+     top: 13%;
+     width: 95%;
+     height:8%;
+     left:2%;
+   }
+   .dnav{
+     position: absolute;
+     top:23%;
+     width: 100%;
    }
 
 }
