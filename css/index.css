@@ -30,7 +30,7 @@ body{
   padding: 1% 2%;
   margin-top: 6px;
   text-decoration:none;
-  font-size: 100%;
+  font-size: 150%;
   float: right;
   text-align: center;
 
@@ -90,7 +90,7 @@ a:acive{
    }
 
    .search input{
-     top: 24vw;
+     top: 27%;
      width: 80%;
      height:8vw;
    }
