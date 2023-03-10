@@ -25,6 +25,7 @@ body{
 }
 .logo img{
   width: 75px;
+  padding-top: 3px;
   height: 65px;
 }
 
@@ -99,7 +100,7 @@ a:acive{
      top: 77px;
      width: 95%;
      height:35px;
-     left:1%;
+     left:.4%;
    }
    .dnav{
      position: absolute;
