@@ -123,8 +123,8 @@ h1{
 
    .dnav a{
      font-size: 18px;
-     padding-right: 0px;
-     padding-left: 0px;
+     padding: 10px;
+     padding-left: 0vw;
      color: pink;
 
    }
