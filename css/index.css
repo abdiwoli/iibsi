@@ -61,6 +61,10 @@ a:acive{
   left:15%;
 
 }
+h1{
+  position: absolute;
+  top: 150px;
+}
 /* dow navigation:  */
 .dnav {
   margin-top: 7px;
@@ -121,10 +125,6 @@ a:acive{
      padding-left: 100px;
      color: pink;
 
-   }
-   h1{
-     position: absolute;
-     top: 180px;
    }
    .nav {
        height: 160px;
