@@ -106,6 +106,7 @@ h1{
 
    .navlink a{
      padding-top: 19px;
+
    }
 
    .search input{
@@ -123,6 +124,7 @@ h1{
    .dnav a{
      font-size: 18px;
      padding-right: 50px;
+     padding-left: 0px;
      color: pink;
 
    }
