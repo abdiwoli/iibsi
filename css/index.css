@@ -72,7 +72,7 @@ a:acive{
 }
 .dnav a{
   font-size: 2vw;
-  padding-left: 20vw;
+  padding-left: 10vw;
   color: pink;
 
 }
@@ -112,8 +112,8 @@ a:acive{
    }
    .dnav{
      position: absolute;
-     top:120px;;
-     width: 100%;
+     top:116px;;
+     width: 97%;
    }
 
    .dnav a{
