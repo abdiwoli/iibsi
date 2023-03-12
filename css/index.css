@@ -81,6 +81,21 @@ h1{
 
 }
 
+.main-container img{
+  width: 100%;
+  height: 200px;
+  opacity: .8;
+  position: absolute;
+  top: 115px;
+  left:0%;
+}
+.main-container h3{
+  position: absolute;
+  top: 160px;
+  left:10%;
+  font-size: 250%;
+  color: red;
+}
 
 
 
@@ -131,5 +146,11 @@ h1{
    .nav {
        height: 160px;
    }
+
+}
+.main-container img{
+  top:190px;
+}
+.main-container h3{
 
 }

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/index.css">
     <title></title>
   </head>
-  <body>
+  <body ng-app="iibsi">
       <div class="nav">
         <div class="topnav">
           <div class="navlink">
@@ -25,13 +25,15 @@
           <input type="text" name="" placeholder="what are u looking for?">
         </div>
 
-        <div class="dnav">
+         <div class="dnav">
           <a href="#">all</a>
           <a href="#">menu</a>
           <a href="#">login</a>
         </div>
-
      </div>
-     <h1>boga waxaa habynaya abdiwoli hassen</h1>
+     <div class="main-container" ng-controller="main">
+        <img class="mySlides" src={{img}}>
+        <h3>{{title}}</h3>
+     </div>
   </body>
 </html>
