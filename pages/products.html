@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="angular.js"></script>
-    <script src='app.js'>  </script>
+    <script src="/angular.js"></script>
+    <script src='/js/products.js'>  </script>
     <link rel="stylesheet" href="/css/index.css">
     <title></title>
   </head>
-  <body ng-app="iibsi">
+  <body ng-app="products">
       <div class="nav">
         <div class="topnav">
           <div class="navlink">
@@ -25,16 +25,17 @@
           <input type="text" name="" placeholder="what are u looking for?">
         </div>
 
-         <div class="dnav">
+        <div class="dnav">
           <a href="#">all</a>
           <a href="#">menu</a>
           <a href="#">login</a>
         </div>
+
      </div>
-     <div class="main-container" ng-controller="main">
-        <img class="mySlides" src={{img}} ng-click="products($index)">
-        <h3>{{title}}</h3>
-        
+     <div class="" ng-controller=productController>
+           <h1> bogan waxaa lagu soo bandhigi doona: {{name}}</h1>
      </div>
+
+
   </body>
 </html>
